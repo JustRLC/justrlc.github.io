@@ -1,0 +1,42 @@
+<!---
+The beauty of this page only shows on the Desktop resolution
+--->
+
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="js/modernizr.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+
+  <body class=bgimage>
+  <div onclick="location.href='https://github.com/JustRLC';" style="cursor: pointer;">
+    <span>J</span>
+    <span>u</span>
+    <span>s</span>
+    <span>t</span>
+    <span>R</span>
+    <span>L</span>
+    <span>C</span>
+  </div>
+
+
+  <!-- Main JS Initialization File -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery.ripples-min.js"></script>
+  <script>
+    $('.bgimage').ripples({
+      resolution: 1000,
+      dropRadius: 15,
+      perturbance: 0.02
+    });
+  </script>
+
+  </body>
+
+</html>
